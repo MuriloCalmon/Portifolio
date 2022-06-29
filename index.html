@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main-bg">
+    <input
+      id="close-menu"
+      class="close-menu"
+      type="checkbox"
+      aria-label="Close menu"
+      role="button"
+    />
+    <label for="close-menu" class="close-menu-label" title="Close menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#home">LOGO</a>
+        </h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro">Sobre mim</a></li>
+            <li><a href="#top3">Formação</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#pricing">pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="spacing"></div>
+
+    <section id="home" class="section main-bg">
+      <div class="main-content home-content">
+        <div class="header-content">
+          <h2>Murilo Calmon De Oliveira</h2>
+          <p>Desenvolvedor de software
+          </p>
+        </div>
+          <img class="img-perfil"
+            src="./assets/img/muca.jfif"
+            alt=" Da Desenho de: um homem segurando a logo do CSS, uma mulher empurando a logo do JavaScript e outro homem segurando a logo do HTML "
+          />
+      </div>
+    </section>
+
+    <section id="intro" class="section white-bg">
+      <div class="intro-content main-content">
+        <h2>Sobre mim</h2>
+        <p>
+          Apaixonado por games e tecnologia
+        </p>
+        <p>Não conhecia o mundo da programação, até que surgiu uma vaga e me lancei de cabeça, 
+        </p>
+        <p>
+          We’ll then explain how DRM/EME works on the new platform, talk about
+          our experience with macOS Big Sur, and discuss various updater
+          problems we had to deal with. We’ll conclude with the release and an
+          overview of various other improvements that are in the pipeline.
+        </p>
+      </div>
+    </section>
+
+    <section id="top3" class="section main-bg">
+      <div class="top3-content main-content">
+        <h2>Top 3 Jobs</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <div>
+            <h3>First</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+              veniam facilis laboriosam ea excepturi nulla eum? Consectetur
+              accusamus facere odio fuga quis ad tempora. Possimus, voluptates.
+              Ullam nisi eveniet consequatur?
+            </p>
+          </div>
+          <div>
+            <h3>Another site</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem aspernatur ducimus animi eveniet quia ratione
+              facilis rem provident earum! Facere hic nihil incidunt, reiciendis
+              iusto ex soluta. Esse, ad ab?
+            </p>
+          </div>
+          <div>
+            <h3>Third one</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem aspernatur ducimus animi eveniet quia ratione
+              facilis rem provident earum! Facere hic nihil incidunt, reiciendis
+              iusto ex soluta. Esse, ad ab?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section white-bg">
+      <div class="top3-content main-content">
+        <h2>Gallery</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random?r=123123123"
+              alt="Random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random?r=15344"
+              alt="Random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random/?r=1021687"
+              alt="Random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random?r=40674"
+              alt="Random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random?r=302567"
+              alt="Random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random?r=20123689"
+              alt="Random image from unsplash"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section main-bg">
+      <div class="top3-content main-content">
+        <h2>Recents Jobs</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <div>
+            <h3>A goob one</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+              veniam facilis laboriosam ea excepturi nulla eum? Consectetur
+              accusamus facere odio fuga quis ad tempora. Possimus, voluptates.
+              Ullam nisi eveniet consequatur?
+            </p>
+          </div>
+          <div>
+            <h3>Great job</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem aspernatur ducimus animi eveniet quia ratione
+              facilis rem provident earum! Facere hic nihil incidunt, reiciendis
+              iusto ex soluta. Esse, ad ab?
+            </p>
+          </div>
+          <div>
+            <h3>The best</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem aspernatur ducimus animi eveniet quia ratione
+              facilis rem provident earum! Facere hic nihil incidunt, reiciendis
+              iusto ex soluta. Esse, ad ab?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section white-bg">
+      <div class="intro-content main-content">
+        <h2>Pricing</h2>
+        <p>
+          The release of Apple Silicon-based Macs at the end of last year
+          generated a flurry of news coverage and some surprises at the
+          machine’s performance. This post details some background information
+          on the experience of porting Firefox to run natively on these CPUs.
+        </p>
+        <p>
+          We’ll start with some background on the Mac transition and give an
+          overview of Firefox internals that needed to know about the new
+          architecture, before moving on to the concept of Universal Binaries.
+        </p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Pricing table
+            </caption>
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>fotter</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-bg footer">
+      <p>
+        Feito por
+        <a target="_blank" rel="nofollow" href="https://github.com/MuriloCalmon"
+          >Muca</a
+        >
+        😜
+      </p>
+    </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
+  </body>
+</html>
