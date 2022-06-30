@@ -245,9 +245,9 @@ a {
 
 }
 
-/*###################### INTRO #######################*/
+/*###################### ABOUT #######################*/
 
-.intro-content {
+.about-content {
   max-width: 64rem;
   padding: 8rem 5rem;
   display: flex;
@@ -256,7 +256,7 @@ a {
 }
 
 
-.intro-content h2 {
+.about-content h2 {
   font-size: 6rem;
   font-weight: bold;
   text-align: center;
@@ -264,7 +264,7 @@ a {
   margin-bottom: 5rem;
 }
 
-.intro-content p {
+.about-content p {
   font-size: 2.3rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -272,9 +272,9 @@ a {
   padding-inline: 5rem;
 }
 
-/*###################### TOP 3 #######################*/
+/*###################### FORMATION #######################*/
 
-.top3-content {
+.formation-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -282,12 +282,12 @@ a {
   min-height: 100vh;
 }
 
-.top3-content h2 {
+.formation-content h2 {
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
-.top3-content p {
+.formation-content p {
   margin-bottom: 3rem;
 }
 
@@ -319,54 +319,6 @@ a {
   margin-bottom: 6rem;
 }
 
-/*###################### GALLERY #######################*/
-
-.gallery-img {
-  max-width: 36rem;
-  max-height: 36rem;
-  overflow: hidden;
-}
-
-.gallery-img img {
-  transition: all 300ms ease-in-out;
-}
-
-.gallery-img img:hover {
-  transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
-}
-
-/*######################PRIICING#######################*/
-
-.responsive-table {
-  overflow: hiden;
-  overflow-x: auto;
-}
-
-table {
-  min-width: 36rem;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-table caption {
-  font-size: 1.6rem;
-  font-style: italic;
-  text-align: left;
-  margin-bottom: 1rem;
-}
-
-table td,
-table th {
-  border: 0.1rem solid var(--light-gray-color);
-  text-align: left;
-  padding: 0.5rem;
-}
-
-tfoot td,
-table th {
-  background-color: var(--light-gray-color);
-}
-
 /*###################### FOOTER #######################*/
 
 .footer {
@@ -375,7 +327,7 @@ table th {
 }
 
 .footer a {
-  color: white;
+  color: var(--primary-color);
 }
 
 .back-to-top {
