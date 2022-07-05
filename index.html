@@ -12,6 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
   </head>
   <body class="main-bg">
     <input
@@ -38,18 +41,20 @@
     </aside>
     <section id="home" class="section main-bg">
       <div class="main-content home-content">
-        <div class="header-content">
-          <div class="animated-text">
-            <div class="line">Olá, bem-vindo</div>
-            <div class="line">Meu nome é</div>
-            <div class="line">Murilo Calmon</div>
-            <div class="line">Eu sou Front End Developer</div>
+        <header class="header-content">
+          <span class="hello-text">Olá, seja bem vindo!</span>
+          <p class="meu-nome"></p>
+          <span class="dev-text" >Desenvolvedor Front End</span>
+
+          <div class="links dev-text" >
+            <a href="https://www.linkedin.com/in/murilo-calmon-3a7876234/" target="_blank">Linkedin</a>
+            <a href="https://github.com/MuriloCalmon" target="_blank">Github</a>
           </div>
-        </div>
+        </header>
         <div class="header-img">
           <img
             class="img-perfil"
-            src="./assets/img/muca.jfif"
+            src="./assets/img/SP-Studio.png"
             alt="Foto do perfil de Murilo Calmon, proprietário do Portifólio"
           />
         </div>
@@ -64,12 +69,7 @@
           Não conhecia o mundo da programação, até que surgiu uma vaga e me
           lancei de cabeça,
         </p>
-        <p>
-          We’ll then explain how DRM/EME works on the new platform, talk about
-          our experience with macOS Big Sur, and discuss various updater
-          problems we had to deal with. We’ll conclude with the release and an
-          overview of various other improvements that are in the pipeline.
-        </p>
+
       </div>
     </section>
 
@@ -78,37 +78,11 @@
         <h2>Formação</h2>
         <p class="grid-description">Uma breve descrição</p>
         <div class="grid">
-          <div>
-            <h3>Loren</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-              veniam facilis laboriosam ea excepturi nulla eum? Consectetur
-              accusamus facere odio fuga quis ad tempora. Possimus, voluptates.
-              Ullam nisi eveniet consequatur?
-            </p>
-          </div>
-          <div>
-            <h3>Loren</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Exercitationem aspernatur ducimus animi eveniet quia ratione
-              facilis rem provident earum! Facere hic nihil incidunt, reiciendis
-              iusto ex soluta. Esse, ad ab?
-            </p>
-          </div>
-          <div>
-            <h3>Loren</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Exercitationem aspernatur ducimus animi eveniet quia ratione
-              facilis rem provident earum! Facere hic nihil incidunt, reiciendis
-              iusto ex soluta. Esse, ad ab?
-            </p>
-          </div>
+
         </div>
       </div>
     </section>
-
+    <!--
     <footer class="white-bg footer">
       <p>
         Feito por
@@ -119,6 +93,8 @@
       </p>
     </footer>
 
-    <!--<a class="back-to-top" href="#home">TOP</a>-->
+    <a class="back-to-top" href="#home">TOP</a>-->
   </body>
+
+  <script src="./assets/index.js"></script>
 </html>
