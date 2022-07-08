@@ -20,22 +20,14 @@
     />
   </head>
   <body class="main-bg">
-    <input
-      id="close-menu"
-      class="close-menu"
-      type="checkbox"
-      aria-label="Close menu"
-      role="button"
-    />
-    <label for="close-menu" class="close-menu-label" title="Close menu"></label>
     <aside class="menu white-bg">
       <div class="main-content menu-content">
-        <h1 onclick="getElementById('close-menu').checked = false;">
-          <a href="#home">&lt;MCO/&gt;</a>
+        <h1>
+          <a href="#home">Início</a>
         </h1>
 
         <nav>
-          <ul onclick="getElementById('close-menu').checked = false;">
+          <ul>
             <li><a href="#about">Sobre mim</a></li>
             <li><a href="#skils">Skils</a></li>
           </ul>
@@ -45,9 +37,10 @@
     <section id="home" class="section main-bg">
       <div class="main-content home-content">
         <header class="header-content">
-          <span class="hello-text">Olá, seja bem vindo!</span>
-          <p class="meu-nome"></p>
-          <span class="dev-text">Desenvolvedor Front End</span>
+          <span class="hello-text">Olá, meu nome é</span>
+          <div><span class="meu-nome"></span></div>
+          <!-- <span class="dev-text typing"></span> -->
+          <div>Eu sou <span class="dev-text-anim"></span></div>
 
           <div class="links dev-text">
             <a
@@ -99,5 +92,7 @@
    <!--  <a class="back-to-top" href="#home">TOP</a> -->
   </body>
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   <script src="./assets/index.js"></script>
 </html>
