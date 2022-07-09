@@ -15,6 +15,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -58,12 +59,8 @@ a {
 
 .main-content {
   max-width: 120rem;
-  margin: 0 auto;
+  margin: auto auto;
   padding: 8rem var(--gap);
-}
-
-.spacing {
-  height: 12rem;
 }
 
 /*###################### MENU #######################*/
@@ -271,17 +268,36 @@ a {
 
 /*#################### MEDIA QUERIES ######################*/
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
+
+  body {
+   overflow: overlay;
+  }
+
   .home-content,
   .grid,
   .about-content {
     grid-template-columns: 1fr;
   }
 
+  .menu {
+    display: none
+  }
+
   .home-content {
     background-color: var(--backgroun-color);
-    
   }
+
+  .main-content {
+    margin: 0;
+    padding: 0;
+    max-width: initial;
+  }
+
+  .about-content {
+    padding: 2rem
+  }
+
   .img-about,
   .header-img {
     margin: auto;
