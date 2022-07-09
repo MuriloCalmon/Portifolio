@@ -268,38 +268,3 @@ a {
 
 /*#################### MEDIA QUERIES ######################*/
 
-@media (max-width: 800px) {
-
-  body {
-   overflow: overlay;
-  }
-
-  .home-content,
-  .grid,
-  .about-content {
-    grid-template-columns: 1fr;
-  }
-
-  .menu {
-    display: none
-  }
-
-  .home-content {
-    background-color: var(--backgroun-color);
-  }
-
-  .main-content {
-    margin: 0;
-    padding: 0;
-    max-width: initial;
-  }
-
-  .about-content {
-    padding: 2rem
-  }
-
-  .img-about,
-  .header-img {
-    margin: auto;
-  }
-}
