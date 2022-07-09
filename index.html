@@ -19,27 +19,28 @@
       rel="stylesheet"
     />
   </head>
-  <body class="main-bg">
+  <body>
+    <!--MENU-->
     <aside class="menu white-bg">
       <div class="main-content menu-content">
         <h1>
-          <a href="#home">Início</a>
+          <a href="#home">&lt;MCO/&gt;</a>
         </h1>
-
         <nav>
           <ul>
+            <li><a href="#home">Início</a></li>
             <li><a href="#about">Sobre mim</a></li>
             <li><a href="#skils">Skils</a></li>
           </ul>
         </nav>
       </div>
     </aside>
-    <section id="home" class="section main-bg">
+    <!--Home, tela inicial-->
+    <div id="home" class="section main-bg">
       <div class="main-content home-content">
         <header class="header-content">
           <span class="hello-text">Olá, meu nome é</span>
           <div><span class="meu-nome"></span></div>
-          <!-- <span class="dev-text typing"></span> -->
           <div>Eu sou <span class="dev-text-anim"></span></div>
 
           <div class="links dev-text">
@@ -58,41 +59,42 @@
           <img
             class="img-perfil"
             src="./assets/img/SP-Studio.png"
-            alt="Foto do perfil de Murilo Calmon, proprietário do Portifólio"
+            alt="Imagem do south park: sp-studio.de. Desenho de um menino feliz, cabelos preto, capote marom e moletom preto, segurando um notebook na mão direita e um celular android na mão esquerda"
           />
         </div>
       </div>
-    </section>
-
+    </div>
+    <!--Sobre mim-->
     <section id="about" class="section white-bg">
       <div class="about-content main-content">
         <header>
           <h2>Sobre mim</h2>
-          <p>Sempre gostei de jogos e tecnlogia, queria entender como os jogos eram criados, mas nunca tive a oportunidade de conhecer sobre. Em 2017 surgiu oportunidade de cursar ADS, que foi o meu <strong>primeiro</strong> contato com a área de programação. Conclui em 2019, com conhecimentos em gestão de projetos, projetista de  sistema, operador técnico de computador, Java, android, SQL - MySql...
-          </p>
-          <br>Não conseguir oportunidades de empregos/estágios, pois foquei  muito na faculdade e a grade não batia com o que se pedia no mercado, devido a isso e outras coisas particulares, me desanimei e deixei de buscar. 2022 voltei a estudar e decidir focar em desenvolvimento web e construir uma carreira na área da programação.
           <p>
-            
+            Sempre gostei de jogos e tecnlogia, queria entender como os jogos
+            eram criados, mas nunca tive a oportunidade de conhecer sobre. Em
+            2017 surgiu oportunidade de cursar ADS, que foi o meu
+            <strong>primeiro</strong> contato com a área de programação. Conclui
+            em 2019, com conhecimentos em gestão de projetos, projetista de
+            sistema, operador técnico de computador, Java, android, SQL -
+            MySql...
           </p>
-        </header> 
+          <br />Não conseguir oportunidades de empregos/estágios, pois foquei
+          muito na faculdade e a grade não batia com o que se pedia no mercado,
+          devido a isso e outras coisas particulares, me desanimei e deixei de
+          buscar. 2022 voltei a estudar e decidir focar em desenvolvimento web e
+          construir uma carreira na área da programação.
+          <p></p>
+        </header>
         <div class="img-about">
           <img src="./assets/img/muca.png" alt="" />
         </div>
       </div>
     </section>
-    
-<!--     <footer class="footer">
-      <p>
-        Por Murilo Calmon / Imagem do south park: sp-studio.de
-        >
-        😜
-      </p>
-    </footer> -->
-
-   <!--  <a class="back-to-top" href="#home">TOP</a> -->
+    <!--button back to top-->
+    <a onscroll="addButtonBackToTopOnScroll()" id="btnBack" class="" href="#home">➔</a>
+    <!--Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="./assets/index.js"></script>
   </body>
 
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-  <script src="./assets/index.js"></script>
 </html>

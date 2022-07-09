@@ -27,34 +27,8 @@ body {
   color: var(--primary-color);
 }
 
-h1 {
-  font-size: 6rem;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: 6rem;
-  text-transform: uppercase;
-}
-
 h2 {
   font-size: 5.5rem;
-}
-
-h3 {
-  font-size: 5rem;
-}
-
-h4 {
-  font-size: 4.5rem;
-}
-
-h5 {
-  font-size: 4rem;
-}
-
-h6 {
-  font-size: 3.5rem;
 }
 
 a {
@@ -71,8 +45,6 @@ a {
 }
 
 .main-bg {
-  /* 
-  background-image: url('../img/main-bg.svg'); */
   background: linear-gradient(
     63.13deg,
     var(--backgroun-color) 50%,
@@ -83,22 +55,6 @@ a {
   color: var(--white-color);
   animation: backAnimation 5s infinite ease;
 }
-
-/*
-@keyframes backAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-*/
 
 .main-content {
   max-width: 120rem;
@@ -167,7 +123,6 @@ a {
 .home-content {
   display: grid;
   position: relative;
-  top: -7rem;
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
   min-height: 100vh;
@@ -295,17 +250,8 @@ a {
   width: 40rem;
   border-radius: 50%;
 }
-/*###################### FOOTER #######################*/
 
-/* .footer {
-  text-align: center;
-  padding: 0.5rem;
-}
-
-.footer a {
-  color: var(--primary-color);
-} */
-
+/*###################### BTN TO TOP #######################*/
 .back-to-top {
   position: fixed;
   bottom: 2rem;
@@ -314,14 +260,16 @@ a {
   height: 5rem;
   color: var(--primary-color);
   background: var(--white-color);
-  border-radius: 100%;
+  border-radius: 50%;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   border: 0.1rem solid var(--primary-color);
+  transform: rotate(-90deg);
 }
 
+/*#################### MEDIA QUERIES ######################*/
 
 @media (max-width: 800px) {
   .home-content,
@@ -331,12 +279,10 @@ a {
   }
 
   .home-content {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     background-color: var(--backgroun-color);
+    
   }
-
+  .img-about,
   .header-img {
     margin: auto;
   }
