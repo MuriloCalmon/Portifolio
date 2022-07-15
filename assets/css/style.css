@@ -284,8 +284,13 @@ a {
   }
 
   .main-content {
-    margin: auto;
     padding: 0;
+    margin: auto auto;
+  }
+
+  .home-content {
+    padding: 2rem;
+    margin-right: 5rem;
   }
 
   .main-bg {
@@ -308,9 +313,23 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .about-content header {
+    margin-right: 5rem;
+    padding: 6rem;
+  }
+
   .img-about {
     display: block;
     margin: 10rem auto;
     padding: auto;
+  }
+
+  .links {
+    flex-direction: column;
+    margin: 5rem;
+  }
+
+  .links a {
+    margin: 0;
   }
 }
