@@ -63,6 +63,8 @@ a {
   padding: 8rem var(--gap);
 }
 
+
+
 /*###################### MENU #######################*/
 
 .menu {
@@ -200,6 +202,7 @@ a {
 }
 
 .img-perfil {
+  width: 100%;
   animation: imgAnimation 4s ease-in-out;
 }
 
@@ -244,8 +247,9 @@ a {
   align-items: center;
 }
 .img-about img {
-  width: 40rem;
+  max-width: 40rem;
   border-radius: 50%;
+  
 }
 
 /*###################### BTN TO TOP #######################*/
@@ -268,3 +272,45 @@ a {
 
 /*#################### MEDIA QUERIES ######################*/
 
+@media (max-width: 1024px) {
+
+  * {
+    margin: auto;
+    padding: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .main-content {
+    margin: auto;
+    padding: 0;
+  }
+
+  .main-bg {
+    background: var(--backgroun-color);
+  }
+
+  .header-img {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+  }
+
+  .img-perfil {
+    width: 60%;
+    animation: none;
+  }
+
+  .home-content,
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .img-about {
+    display: block;
+    margin: 10rem auto;
+    padding: auto;
+  }
+}
