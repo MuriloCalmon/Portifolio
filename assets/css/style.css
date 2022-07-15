@@ -306,7 +306,8 @@ a {
   .home-content,
   .about-content {
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding-inline: 2rem;
+    font-size: 1.3rem;
   }
 
   .img-about {
