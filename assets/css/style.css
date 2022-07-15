@@ -63,7 +63,9 @@ a {
   padding: 8rem var(--gap);
 }
 
-
+#mobile-button {
+  display: none;
+}
 
 /*###################### MENU #######################*/
 
@@ -249,7 +251,6 @@ a {
 .img-about img {
   max-width: 40rem;
   border-radius: 50%;
-  
 }
 
 /*###################### BTN TO TOP #######################*/
@@ -273,25 +274,29 @@ a {
 /*#################### MEDIA QUERIES ######################*/
 
 @media (max-width: 1024px) {
-
-  * {
-    margin: auto;
-    padding: auto;
-  }
-
-  .menu {
-    display: none;
-  }
+  /*########GERAL#######*/
 
   .main-content {
     padding: 0;
     margin: auto auto;
   }
 
+  .menu {
+    display: none;
+  }
+
+  .home-content,
+  .about-content {
+    grid-template-columns: 1fr;
+    padding-inline: 2rem;
+    font-size: 1.3rem;
+  }
+
   .main-bg {
     background: var(--backgroun-color);
   }
 
+  /*########HOME#######*/
   .header-img {
     margin: auto;
     padding: auto;
@@ -303,21 +308,8 @@ a {
     animation: none;
   }
 
-  .home-content,
-  .about-content {
-    grid-template-columns: 1fr;
-    padding-inline: 2rem;
-    font-size: 1.3rem;
-  }
-
-  .img-about {
-    margin: auto;
-    padding: auto;
-    justify-content: center;
-  }
-
-  .img-about img {
-    width: 60%;
+  .header-content {
+    margin-top: 3rem;
   }
 
   .links {
@@ -327,5 +319,16 @@ a {
 
   .links a {
     margin: 0;
+  }
+
+  /*########ABOUT#######*/
+  .img-about {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+  }
+
+  .img-about img {
+    width: 60%;
   }
 }
