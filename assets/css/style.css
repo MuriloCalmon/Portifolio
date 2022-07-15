@@ -288,10 +288,6 @@ a {
     margin: auto auto;
   }
 
-  .home-content {
-    padding: 2rem;
-  }
-
   .main-bg {
     background: var(--backgroun-color);
   }
@@ -312,10 +308,6 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .about-content header {
-    padding: 6rem;
-  }
-
   .img-about {
     display: block;
     margin: 10rem auto;
@@ -324,7 +316,7 @@ a {
 
   .links {
     flex-direction: column;
-    margin: 5rem;
+    margin-top: 5rem;
   }
 
   .links a {
