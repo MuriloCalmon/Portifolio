@@ -323,7 +323,8 @@ a {
 
   /*########ABOUT#######*/
   .img-about {
-    margin: auto;
+    margin-inline: auto;
+    margin-top: 5rem;
     padding: auto;
     justify-content: center;
   }
